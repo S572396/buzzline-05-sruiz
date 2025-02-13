@@ -39,7 +39,22 @@ Use your README.md to record your workflow and commands.
 Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/docs/MANAGE-VENV.md) to:
 1. Create your .venv
 2. Activate .venv
-3. Install the required dependencies using requirements.txt.
+3. Install the required dependencies using requirements.txt:
+4. pip install psycopg2
+5. pip install PyMySQL
+6. pip install PyQt6
+7. pip install six
+8. pip install kafka-python
+9. pip install python-dotenv
+10. pip install loguru
+11. sudo apt update && sudo apt install net-tools -y  (wsl terminal zookeeper)
+12. sudo chown -R $USER:$USER /tmp/zookeeper
+sudo chmod -R 755 /tmp/zookeeper
+
+
+
+
+
 
 ## Task 4. Start Zookeeper and Kafka (Takes 2 Terminals)
 
