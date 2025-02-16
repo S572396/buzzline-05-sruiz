@@ -1,5 +1,9 @@
 # buzzline-05-case
 
+## Project By Sandra Ruiz.
+
+### This project will use producer_case.py and add in one new modified consumer consumer.consumer_sruiz.py that will create an average sentiment score by each of the different categories tech, travel, gaming, humor, other, etc and store the data in a table in sqlite db.
+
 Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
 In this example project, we incorporate a relational data store. 
@@ -47,9 +51,8 @@ Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzli
 8. pip install kafka-python
 9. pip install python-dotenv
 10. pip install loguru
-11. sudo apt update && sudo apt install net-tools -y  (wsl terminal zookeeper)
-12. sudo chown -R $USER:$USER /tmp/zookeeper
-sudo chmod -R 755 /tmp/zookeeper
+
+
 
 
 

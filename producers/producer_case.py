@@ -150,7 +150,7 @@ def main() -> None:
         logger.error(f"ERROR: Failed to delete live data file: {e}")
         sys.exit(2)
 
-   ## logger.info("STEP 4. Try to create a Kafka producer and topic.")
+    logger.info("STEP 4. Try to create a Kafka producer and topic.")
     producer = None
 
     try:
