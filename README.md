@@ -1,6 +1,6 @@
 # buzzline-05-case
 
-## Project By Sandra Ruiz.
+## Project By Sandra Ruiz
 
 ### This project will use producer_case.py and add in one new modified consumer consumer.consumer_sruiz.py that will create an average sentiment score by each of the different categories tech, travel, gaming, humor, other, etc and store the data in a table in sqlite db.
 
